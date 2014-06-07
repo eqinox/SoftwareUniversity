@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		body{
+			background-image: url("background.jpg");
+			background-size: 100%;
+			font-family: Consolas;
+		}
+		h1{
+			color: rgb(243, 190, 96);
+		}
+		ul{
+			color: white;
+			list-style-type: none;
+		}
+		li:before{
+			content: "■";
+			padding-right: 5px;
+			vertical-align: text-top;
+			color: rgb(242, 178, 84);
+		}
+		li{
+			font-size: 1.4em;
+		}
+		div{
+			width: 90%;
+			background-color: rgba(32, 32, 30, 0.9);
+			border: 1px solid rgb(116, 112, 101);
+			margin-left: 26px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			color: red;
+		}
+		div p{
+			font-size: 0.7em;
+			color: rgb(251, 238, 201);
+			margin: 5px;
+		}
+		span{
+			color: rgb(243, 190, 96);
+		}
+		.moreRight{
+			margin-left: 25px;
+			color: inherit;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<h1>Headings and Paragraphs</h1>
+	<ul>
+		<li>Heading Tags:<span>&lt;h1&gt;</span>-<span>&lt;h6&gt;</span>
+			<div>
+				<p>&lt;h1&gt;Heading 1&lt;/h1&gt;</p>
+				<p>&lt;h2&gt;Sub heading 2&lt;/h2&gt;</p>
+				<p>&lt;h3&gt;Sub heading 3&lt;/h3&gt;</p>
+			</div>
+		</li>
+		<li>Paragraph Tags:<span>&lt;p&gt;</span>
+			<div>
+				<p>&lt;p&gt;This is my first paragraph&lt;/p&gt;</p>
+				<p>&lt;p&gt;This is my second paragraph&lt;/p&gt;</p>
+			</div>
+		</li>
+		<li>Sections: <span>&lt;div&gt;</span> and <span>&lt;span&gt;</span>
+			<div>
+				<p>&lt;div style="background: skyblue;"&gt;</br> <span class="moreRight">This is a div</span> </br>&lt;div&gt;</p>
+			</div>
+		</li>
+	</ul>
+</body>
+</html>

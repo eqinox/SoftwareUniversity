@@ -1,0 +1,14 @@
+body{
+	background-color: skyblue;
+}
+.withoutStyle{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.friends{
+	list-style: none;
+}
+#firstUL{
+	padding-left: 0px;
+}
