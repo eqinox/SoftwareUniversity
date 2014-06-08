@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+		}
+		nav{
+			background-color: rgb(35, 68, 101);
+			height: 110px;
+		}
+		.image{
+			padding-left: 50px;
+			padding-top: 20px;
+			float: left;
+		}
+		.firstLineButtons{
+			padding: 0px;
+			margin: 0px;
+			color: white;
+			list-style-type: none;
+			padding-left: 500px;
+			font-size: 1.2em;
+			padding-top: 20px;
+		}
+		.secondLineButtons{
+			padding: 0px;
+			margin: 0px;
+			color: white;
+			list-style-type: none;
+			padding-left: 370px;
+			font-size: 1.2em;
+			padding-top: 20px;
+		}
+		.highlightButton{
+			cursor: pointer;
+		}
+		.highlightButton:hover{
+			background-color: rgb(76, 160, 219);
+		}
+			.secondLineButtons li{
+				display: inline;
+				padding-right: 15px;
+				font-size: 0.8em;
+				text-transform: uppercase;
+			}
+			.firstLineButtons li{
+				display: inline;
+			}
+				.user:after{
+					content: url("after-word.jpg");
+					padding-left: 4px;
+			}
+			.firstLineButtons .user{
+				padding-left: 25px;
+			}
+			.firstLineButtons .search{
+				padding-left: 40px;
+			}
+				.firstLineButtons .search input{
+				border-radius: 5px;
+				border: 0px;
+				vertical-align: middle;
+				border-collapse: collapse;
+				height: 32px;
+				width: 220px;
+			}
+				.firstLineButtons .search button{
+					background-image: url("search.png");
+					width: 32px;
+					height: 30px;
+					padding-right: 10px;
+					background-color: white;
+					background-repeat: no-repeat;
+					border: none;
+					border-radius: 5px;
+					vertical-align: middle;
+					border-left: 1px solid #d5d5d5;
+					cursor: pointer;
+					text-align: center;
+					background-position: 7px;
+					border-collapse: separate;
+				}	
+					.firstLineButtons .search button:hover{
+						background-color: orange;
+				}
+
+	</style>
+	<title></title>
+</head>
+<body>
+	<nav>
+		<img class="image" src="text-logo.jpg">
+		<ul class="firstLineButtons">
+			<li>0</li>
+			<li><img src="bell.jpg"></li>
+			<li class="user highlightButton">USER</li>
+			<li class="search"><input type="text"/><button></button></li>
+		</ul>
+		<ul class="secondLineButtons">
+			<li class="highlightButton">Новини</li>
+			<li class="highlightButton user">За университета</li>
+			<li class="highlightButton user">обучения</li>
+			<li class="highlightButton">за фирми</li>
+			<li class="highlightButton">форум</li>
+			<li class="highlightButton">контакти</li>
+		</ul>
+	</nav>
+</body>
+</html>
