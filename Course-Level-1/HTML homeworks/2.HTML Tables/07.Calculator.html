@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	table{
+		border: 1px inset gray;
+	}
+	td{
+		min-height: 300px;
+		height: 50px;
+	}
+	button{
+		width: 100%;
+		height: 100%;
+	}
+	input{
+		height: 50px;
+		width: 50px;
+	}
+	#inputArea{
+		width: 210px;
+	}
+</style>
+	<title></title>
+</head>
+<body>
+<form name="calc">
+	<table>
+		<tr>
+			<td colspan="4"><input type="text" name="input" id="inputArea" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="one" value="1" onclick="calc.input.value += '1'"></input></td>
+			<td><input type="button" name="two" value="2" onclick="calc.input.value += '2'"></input></td>
+			<td><input type="button" name="tree" value="3" onclick="calc.input.value += '3'"></input></td>
+			<td><input type="button" name="plus" value="+" onclick="calc.input.value += '+'"></input></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="four" value="4" onclick="calc.input.value += '4'"></input></td>
+			<td><input type="button" name="five" value="5" onclick="calc.input.value += '5'"></input></td>
+			<td><input type="button" name="six" value="6" onclick="calc.input.value += '6'"></input></td>
+			<td><input type="button" name="minus" value="-" onclick="calc.input.value += '-'"></input></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="seven" value="7" onclick="calc.input.value += '7'"></input></td>
+			<td><input type="button" name="eight" value="8" onclick="calc.input.value += '8'"></input></td>
+			<td><input type="button" name="eight" value="9" onclick="calc.input.value += '9'"></input></td>
+			<td><input type="button" name="multiply" value="*" onclick="calc.input.value += '*'"></input></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="clear" value="C" onclick="calc.input.value = '0'"></input></td>
+			<td><input type="button" name="zero" value="0" onclick="calc.input.value += '0'"></input></td>
+			<td><input type="button" name="equal" value="=" onclick="calc.input.value = eval(calc.input.value)"></input></td>
+			<td><input type="button" name="divide" value="/" onclick="calc.input.value += '/'"></input></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
