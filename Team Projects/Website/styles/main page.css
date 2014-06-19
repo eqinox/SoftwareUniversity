@@ -1,0 +1,56 @@
+body, p, header, h1, h2, div, ul, li{
+	margin: 0px;
+	padding: 0px;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+body{
+	background-image: url(../pictures/bg.jpg);
+}
+	body header{
+		background-color: black;
+		text-align: left;
+		background-image: url(../pictures/header-bg.png);
+
+	}
+		body header nav{
+			float: right;
+			margin-top: 50px;
+
+		}
+			body header nav ul{
+				color: white;
+				list-style-type: none;
+
+			}
+				body header nav ul li{
+					float: left;
+					font-size: 2em;
+					text-transform: uppercase;
+					padding-right: 10px;
+				}
+					body header nav ul li:before{
+						content: url(../pictures/bullet_green.png);
+						vertical-align: sub;
+					}
+body header h1 img{
+	display: inline-block;
+}
+body #content #main section{
+	width: 600px;
+	background-color: white;
+	margin-left: 30px;
+}
+	body #content #main section h2{
+		font-size: 2em;
+		padding-left: 20px;
+		color: rgb(102, 255, 0);
+}
+	body #content #main section .section-item-header{
+		background-color: white;
+		color: black;
+	}
+	body #content #main section ul li{
+		float: left;
+		margin-right: 10px;
+	}
