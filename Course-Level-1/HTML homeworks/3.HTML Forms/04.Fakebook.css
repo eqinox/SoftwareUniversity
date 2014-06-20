@@ -1,0 +1,103 @@
+body{
+	background-color: rgb(59, 89, 151);
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 111px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: tahoma;
+}
+h1 sub{
+	font-size: 0.2em;
+	vertical-align: baseline;
+	padding-left: 2px;
+}
+h2{
+	text-align: center;
+	color: white;
+	font-size: 27px;
+}
+body > p{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.container{
+	margin-left: 10%;
+}
+.none-important{
+	display: inline;
+	float: left;
+	width: 40%;
+	color: white;
+}
+	.none-important legend{
+		text-align: center;
+	}
+	.none-important fieldset{
+		border-radius: 5px;
+	}
+.important{
+	width: 50%;
+	margin-left: 3%;
+	float: left;
+}
+	.important legend{
+		text-align: center;
+		color: white;
+	}
+	.important fieldset{
+		border-radius: 5px;
+		color: white;
+	}
+	.important fieldset > p{
+		margin-top: 0px;
+		margin-bottom: 10px;
+		color: white;
+	}
+	.important .bigText{
+		width: 30%;
+	}
+	.important .smallText{
+		width: 15%;
+	}
+	.important .innerBackground{
+		
+	}
+	.important textarea{
+		width: 99%;
+		height: 45px;
+	}
+input[type="datetime-local"]{
+	width: 70%;
+}
+input[type="radio"]{
+	width: auto;
+	margin-right: 7px;
+}
+input[type="reset"], input[type="submit"]{
+	width: 99%;
+	margin-top: 10px;
+	height: 55px;
+	font-size: 1.8em;
+	color: rgb(59, 89, 151);
+	margin-left: 3px;
+}
+input, select, textarea{
+	margin-bottom: 10px;
+	height: 30px;
+	width: 49%;
+	border: 0px;
+	border-radius: 5px;
+}
+.radio{
+	text-align: center;
+	margin-right: 10px;
+	vertical-align: text-bottom;
+}
+fieldset > label{
+	margin-bottom: 10px;
+	display: inline-block;
+}

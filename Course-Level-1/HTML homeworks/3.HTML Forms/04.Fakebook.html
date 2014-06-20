@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="04.fakebook.css">
+	<title></title>
+</head>
+<body>
+	<h1>fakebook<sub> &reg;</sub></h1>
+	<h2>Registrarion</h2>
+	<p>it is safe and it will always be!</p>
+	<div class="container">
+	<form class="none-important">
+		<fieldset>
+			<legend>None-Important information</legend>
+			<input type="text" placeholder="First Name"/>
+			<input type="text" placeholder="Last Name" /><br/>
+			<input type="email" placeholder="Your Email"/>
+			<input type="text" placeholder="Phone Number" /><br/>
+			<input type="password" placeholder="Your Password"/>
+			<input type="text" placeholder="Website" /><br/>
+			<label for="date">Birthday</label><br/>
+			<input type="datetime-local" /><br/>
+			<input type="radio" id="female"><label for="female" class="radio"> Female</label>
+			<input type="radio" id="male"><label for="male" class="radio"> Male</label>
+			<input type="radio" id="other"><label for="other" class="radio"> Other</label>
+		</fieldset>
+		<input type="reset" value="Clear Form"/>
+	</form>
+	<form class="important">
+		<fieldset>
+			<legend >Important information *required</legend>
+			<select class="bigText">
+				<option>Country</option>
+			</select>
+			<input class="bigText" type="text" />
+			<input class="bigText" type="text" /><br/>
+			<input class="bigText" type="text"/>
+			<input class="smallText" type="text"/>
+			<input class="smallText" type="text"/>
+			<input class="smallText" type="text"/><br/>
+			<p>Door Color</p>
+			<input class="bigText" value="#ff80c1" type="color">
+			<input class="bigText" type="text"/>
+			<select class="bigText">
+				<option>Aunt Panties'Size</option>
+			</select>
+			<br/>More Personal Information<br/>
+			<textarea></textarea>
+		</fieldset>
+		<input type="submit" value="Register" />
+	</form>
+	</div>
+</body>
+</html>

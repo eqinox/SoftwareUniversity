@@ -1,0 +1,73 @@
+body, p, h1, h2, figure, figcaption{
+	margin: 0px;
+	padding: 0px;
+}
+.laptopSection{
+	width: 100%;
+}
+	.laptopSection:hover{
+		border: 3px solid red;
+	}
+	.laptopSection article{
+		border-radius: 10px;
+		border: 1px solid rgb(229, 237, 239);
+		margin: 10px;
+	}
+		.laptopSection article p{
+			margin-left: 10px;
+		}
+		.laptopSection article header{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		.laptopSection article figure{
+			text-align: center;		
+		}
+			.laptopSection article figure figcaption{
+				text-align: right;
+				background-color: rgb(54, 57, 110);
+				color: white;
+				width: 120px;
+				margin-left: 45%;
+				height: 30px;
+				border-top-left-radius: 10px;
+				vertical-align: sub;
+			}
+				.laptopSection article figure figcaption .price{
+					text-align: center;
+					font-size: 1.5em;
+				}
+table{
+	float: left;
+}
+	table thead tr{
+		text-align: left;
+		font-size: 2em;
+	}
+nav{
+	background-color: rgb(247, 252, 255);
+	display: inline-block;
+	border: 1px solid rgb(229, 237, 239);
+	width: 220px;
+	margin-left: 10px;
+}
+	nav > div{
+		margin-bottom: 20px;
+	}
+		nav div p{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		nav div div{
+			text-align: center;
+		}
+			nav div div input{
+				width: 99%;
+			}
+			nav div p:first-child{
+				margin-top: 20px;
+			}
+			nav div:last-child div{
+				margin-bottom: 40px;
+			}
+	

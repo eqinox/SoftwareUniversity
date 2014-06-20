@@ -1,0 +1,39 @@
+form{
+	height: 340px;
+	width: 475px;
+	background-color: rgb(255, 192, 203);
+}
+.bigCell{
+	width: 222px;
+	height: 25px;
+}
+.smallCell{
+	width: 30%;
+	height: 25px;
+}
+.mediumCell{
+	width: 47%;
+	height: 25px;
+}
+.left{
+	margin-left: 12px;
+}
+table{
+	width: 100%;
+}
+td{
+	width: 50%;
+}
+table, td, th{
+}
+.dates span{
+	display: inline-block;
+	width: 30%;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 35px;
+}
+th{
+	font-size: 2em;
+}

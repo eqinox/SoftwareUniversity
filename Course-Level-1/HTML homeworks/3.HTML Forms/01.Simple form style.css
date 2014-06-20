@@ -1,0 +1,97 @@
+body{
+		padding: 0px;
+		margin: 0px;
+		
+	}
+	.main-Container{
+		width: 1005px;
+		height: 550px;
+		background-color: rgb(238, 238, 238);
+		padding-top: 0px;
+	}
+		.main-Container > h1, p{
+			padding-top: 20px;
+			margin-left: 20px;
+		}
+			.main-Container > p{
+				color: rgb(187, 187, 187);
+				padding-top: 0px;
+				margin-top: 20px;
+			}
+	h1{
+		color: rgb(35, 68, 101);
+	}
+	.registerAndLogin{
+		margin-left: 40px;
+	}
+	.register{
+		width: 44%;
+		float: left;
+	}
+		.register input{
+			margin-bottom: 20px;
+			width: 100%;
+			height: 50px;
+			padding-left: 5px;
+			font-size: 13px;
+		}
+		.register h2{
+			margin-bottom: 0px;
+			font-size: 17px;
+			font-family: 'Hideko', 'Uniman DemiBold', 'Insider Medium', 'New Lincoln Gothic BT Bold';
+			color: rgb(101, 101, 101);
+		}
+			.register input:last-child{
+				border: 2px solid rgb(35, 68, 101);
+				width: 50%;
+				float: right;
+				height: 50px;
+				font-size: 15px;
+				color: rgb(35, 68, 101);
+				font-weight: bold;
+				background-color: inherit;
+			}
+	.login{
+		width: 50%;	
+		float: left;
+		height: 100%;
+		margin-left: 30px;
+		background-color: rgb(35, 68, 101);
+	}
+		.login h2{
+			color: white;
+			font-size: 0.9em;
+			padding-left: 20px;
+		}
+		.login input{
+			width: 90%;
+			height: 50px;
+			padding-left: 5px;
+			margin-bottom: 18px;
+			margin-left: 18px;
+			margin-right: 18px;
+		}
+			.login input[type="checkbox"] {
+				width: 24px;
+				height: 24px;
+				margin-right: 7px;
+			}
+			.login input[type="submit"]{
+				border: 2px solid rgb(255, 162, 0);
+				float: right;
+				width: 35%;
+				font-size: 16px;
+				background-color: inherit;
+				color: white;
+				margin-bottom: 0px;
+			}
+
+	#forgotPass{
+		color: white;
+		text-decoration: underline;
+		float: right;
+		text-align: right;
+		margin-right: 40px;
+		margin-top: 0px;
+		margin-bottom: 115px;
+	}
