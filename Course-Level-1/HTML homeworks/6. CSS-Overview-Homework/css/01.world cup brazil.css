@@ -1,11 +1,13 @@
-body, div, p, a, img, td, th, tr, select, option, thead, tbody, button{
+body, div, p, a, img, td, th, tr, select, option, thead, tbody{
 	margin: 0px;
 	padding: 0px;
+	font-family: tahoma;
 }
 .main-container{
 	background: rgb(0, 146, 63);
 	width: 1215px;
 	height: 441px;
+	padding-top: 20px;
 }
 	.main-container table{
 		border: 2px solid black;
@@ -21,7 +23,7 @@ body, div, p, a, img, td, th, tr, select, option, thead, tbody, button{
 	}
 		.main-container table td, th{
 			border: 1px solid black;
-			font-size: 25px;
+			font-size: 20px;
 			text-align: center;
 			text-transform: capitalize;
 		}
@@ -30,7 +32,10 @@ body, div, p, a, img, td, th, tr, select, option, thead, tbody, button{
 		}
 			.main-container table thead th{
 				height: 55px;
+				font-size: 2em;
+
 			}
+
 				.main-container table tbody tr:last-child td:first-child{
 					border-bottom-left-radius: 12px;
 				}
@@ -43,4 +48,56 @@ body, div, p, a, img, td, th, tr, select, option, thead, tbody, button{
 				.main-container table thead tr:last-child th:last-child{
 					border-top-right-radius: 12px;
 				}
-			
+				.main-container table tbody tr td:nth-child(1), thead th:nth-child(1){
+					text-align: right;
+					padding-right: 10px;
+				}
+				.main-container table tbody tr td:nth-child(3){
+					text-align: left;
+					padding-left: 10px;
+				}
+				.main-container table tbody tr td:nth-child(5){
+					text-align: right;
+					padding-right: 10px;
+				}
+				.main-container table tbody tr td:nth-child(7){
+					text-align: left;
+					padding-left: 10px;
+				}
+					.main-container table tbody tr td:first-child img{
+						vertical-align: bottom;
+					}
+					.main-container table tbody tr td select{
+						height: 45px;
+						width: 45px;
+						color: red;
+						font-size: 0.8em;
+						background-color: rgb(220, 220, 220);
+					}
+					.main-container table tbody tr td .green-option{
+						color: green;
+						background-color: white;
+					}
+					.main-container table tbody tr td:nth-child(3) img{
+						vertical-align: bottom;
+					}
+					.main-container table tbody tr:nth-of-type(2n){
+						background-color: rgb(200, 200, 200);
+					}
+.red-bet-btn{
+	border-radius: 40px;
+	height: 45px;
+	width: 45px;
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+}
+.green-bet-btn{
+	border-radius: 40px;
+	height: 45px;
+	width: 45px;
+	background-color: green;
+	color: white;
+	text-transform: uppercase;
+}
+
