@@ -1,0 +1,17 @@
+.main-container{
+	height: 280px;
+	width: 729px;
+	border-left: 6px dashed red;
+	border-top: 7px dotted yellow;
+	border-right: 15px solid green;
+	border-bottom: 8px double blue;
+	box-shadow: 20px 20px 10px rgb(63, 63, 63);
+	font-family: tahoma;
+}
+.only-text{
+	font-size: 52px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;
+	text-shadow: 15px 15px 18px  gray;
+}
