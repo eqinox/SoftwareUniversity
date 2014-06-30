@@ -15,3 +15,89 @@
 	margin-top: 15px;
 	text-shadow: 15px 15px 18px  gray;
 }
+.blue-border{
+	border: 3px solid blue;
+	border-radius: 45px;
+	width: 650px;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+}
+.yellow-border{
+	border: 3px solid yellow;
+	border-radius: 45px;
+}
+.red-border{
+	border: 3px solid red;
+	border-radius: 45px;
+}
+.text{
+	text-shadow: 10px 10px 10px gray;
+}
+.btn{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: orange;
+	border: 5px inset orange;
+}
+.large-circle{
+	display: inline-block;
+	position: relative;
+	margin-left: 680px;
+	background-color: rgba(100, 100, 100, 0.7);
+	border-radius: 45px;
+	width: 130px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+.large-circle div{
+	border: 3px dashed white;
+	height: 90%;
+	width: 90%;
+	margin-top: -43px;
+	margin-left: 4px;
+	border-radius: 45px;
+}
+.medium-circle{
+	display: inline-block;
+	position: absolute;
+	margin-left: 630px;
+	background-color: rgba(100, 100, 100, 0.7);
+	border-radius: 180px;
+	margin-top: 25px;
+	width: 40px;
+	height: 40px;
+	color: white;
+}
+.medium-circle div{
+	border: 3px dashed white;
+	height: 75%;
+width: 75%;
+margin-top: 2px;
+margin-left: 2px;
+	border-radius: 45px;
+}
+.small-circle{
+	display: inline-block;
+	position: absolute;
+	margin-left: 500px;
+	background-color: rgba(100, 100, 100, 0.7);
+	border-radius: 180px;
+	margin-top: 60px;
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+.small-circle div{
+	border: 3px dashed white;
+	height: 65%;
+width: 65%;
+margin-top: 2px;
+margin-left: 2px;
+	border-radius: 45px;
+}
