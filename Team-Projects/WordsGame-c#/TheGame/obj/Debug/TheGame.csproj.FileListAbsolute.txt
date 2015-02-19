@@ -1,0 +1,6 @@
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\bin\Debug\TheGame.exe.config
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\bin\Debug\TheGame.exe
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\bin\Debug\TheGame.pdb
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\obj\Debug\TheGame.csprojResolveAssemblyReference.cache
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\obj\Debug\TheGame.exe
+E:\C#\Kurs C II\TeamProject\TheGame\TheGame\obj\Debug\TheGame.pdb
