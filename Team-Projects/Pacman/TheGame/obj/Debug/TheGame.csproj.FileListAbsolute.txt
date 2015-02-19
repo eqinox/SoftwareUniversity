@@ -1,0 +1,6 @@
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\bin\Debug\TheGame.exe.config
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\bin\Debug\TheGame.exe
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\bin\Debug\TheGame.pdb
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\obj\Debug\TheGame.exe
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\obj\Debug\TheGame.pdb
+C:\Users\User\Documents\TeamSnuffy TFS TheGame\TheGame\BuildProcessTemplates\TheGame\TheGame\obj\Debug\TheGame.csprojResolveAssemblyReference.cache
